@@ -1,0 +1,35 @@
+{
+  "name": "detect-css-colors",
+  "version": "1.0.0",
+  "description": "Detect css colors",
+  "main": "index.js",
+  "dependencies": {
+    "css-color-list": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakajmg/detect-css-colors.git"
+  },
+  "keywords": [
+    "css",
+    "color",
+    "colors",
+    "hsl",
+    "hsla",
+    "hex",
+    "rgb",
+    "rgba"
+  ],
+  "author": "nakajmg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nakajmg/detect-css-colors/issues"
+  },
+  "homepage": "https://github.com/nakajmg/detect-css-colors#readme"
+}
