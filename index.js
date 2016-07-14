@@ -6,13 +6,13 @@ module.exports = function (str) {
   var hslRegex = require('./regex/hsl');
   var hslaRegex = require('./regex/hsla');
   
-  var regex = new RegExp('[\\s\'":,]+(' +
+  var regex = new RegExp('[\\s:,]+(' +
     rgbRegex.source + '|' +
     rgbaRegex.source + '|' +
     hexRegex.source + '|' +
     hslRegex.source + '|' +
     hslaRegex.source + '|' +
-    cssColors + ')+[\\s\'";,\\)]+'
+    cssColors + '|transparent' + ')+[\\s;,\\)]+'
     , 'ig');
   
   var matched = str.match(regex);
