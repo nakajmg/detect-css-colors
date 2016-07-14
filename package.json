@@ -1,6 +1,6 @@
 {
   "name": "detect-css-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect css colors",
   "main": "index.js",
   "dependencies": {
